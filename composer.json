@@ -1,0 +1,21 @@
+{
+    "name": "controleonline/menu",
+    "description": "Menu System by domain used on Controle Online",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/ControleOnline/menu",
+    "keywords": [
+        "ControleOnline",
+        "Menu"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Menu\\": "src/Menu"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    },    
+    "require": {        
+        "controleonline/core": "*"
+    }        
+}
